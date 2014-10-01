@@ -1,0 +1,76 @@
+/*
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -65px;  the bottom margin is the negative value of the footer's height 
+	padding: 0 0 60px;
+}
+#footer, .push {
+	height: 65px;  '.push' must be the same height as 'footer' 
+	background-color: #EEEEEE;
+	color: inherit;
+	
+} 
+
+
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #474747;
+  border-color: #171717;
+  border-top: solid, thin; 
+  font-size: 12px;
+}
+/*background updated from #eeeeee 2/1/2014*/
+/*background updated from #d6d6d6 2/1/2014*/
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+
+code {
+  font-size: 80%;
+}

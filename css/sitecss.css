@@ -1,0 +1,97 @@
+/*Customer css*/
+
+.navbar-standard {
+	background-color: #fff; /*This controls the color of the nav bar */
+	border-color: #171717;
+	/*background-color: #82cec3;
+	border-color: #9bd7cf;	*/
+	border-bottom: solid, thin;
+	padding: 0 0 auto;
+}
+/*background updated from #eeeeee 2/1/2014*/
+/*background updated from #d6d6d6 2/1/2014*/
+
+.jumbotron-backgroud {
+	background-color: #474747;
+}
+/*background updated from #eeeeee 2/1/2014*/
+
+.myimage {
+	height: 25%;
+	width: 25%;
+}
+
+/*body {
+	background-color: #2ecc71;*/
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+#fontsize {
+	
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 90px;
+	font-weight: 700;
+}
+
+#font-header-education {
+	font-size: 50px;
+	font-weight: 700;	
+}
+
+#font-header-skills {
+	font-size: 70px;
+	font-weight: 700;
+}
+
+.home-section {
+	background: none repeat scroll #ffffff;
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.work-section {
+	background: none repeat scroll #dddddd;
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.education {
+	background: none repeat scroll #eeeeee;
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+}
+
+img {
+	height: 15%;
+	width: 15%;
+}
+
+.scroll-box {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	padding: 10px;
+	top: 0;
+	bottom: 0;
+	overflow: auto;
+	
+}
