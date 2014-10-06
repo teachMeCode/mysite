@@ -75,3 +75,15 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
     /*background: #ececec;*/
 }
+
+.projects-section {
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+    /*background-image: url('../img/code.png');
+    background-size: 100% 100%;
+    background-repeat: repeat-x;*/
+    background: #eee;
+    /*background: #ececec;*/
+}
+
