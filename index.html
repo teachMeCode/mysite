@@ -440,43 +440,52 @@
     <section id="projects" class="projects-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-8">
             <!-- carousel
             =========================== -->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+            <div id="carousel" class="carousel slide" >
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+              </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="ss.png" alt="fastfantasyfootball">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/me_coffee.jpg" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    ...
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-          </div>  
+            <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/ss.jpg" alt="fastfantasyfootball">
+                  <div class="carousel-caption">
+                    <h4>Fast Fantasy Football</h4>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/cc.jpg" alt="..." class="img-rounded">
+                  <div class="carousel-caption">
+                    Congress Connection
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/inv.jpg" alt="...">
+                  <div class="carousel-caption">
+                    Congress Connection
+                  </div>
+                </div>
+                <!-- <h3>Here are some projects</h3> -->
+              </div>
+  
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div> <!-- end carousel -->
+          </div>
+          <div class="col-md-2"></div>
         </div>
       </div>    
     </section>
@@ -626,7 +635,9 @@
    //  	});
       
       $('.collapse').collapse()
-      $('#carousel-example-generic').carousel()
+      $('.carousel').carousel({
+        interval: 3000
+      }) 
 		</script>
 	</body	
 

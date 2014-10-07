@@ -83,12 +83,17 @@ of those sections to manage the look and feel of the site. */
 
 .projects-section {
     height: 100%;
-    padding-top: 75px;
+    padding-top: 150px;
     text-align: center;
     /*background-image: url('../img/code.png');
     background-size: 100% 100%;
     background-repeat: repeat-x;*/
     background: #eee;
     /*background: #ececec;*/
+}
+
+.projects-section img {
+    background-size: none;
+    border: solid 1px black;
 }
 
