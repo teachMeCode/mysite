@@ -42,6 +42,7 @@ button {
 }
 
 
+
 #fontsize {
 	
 	/*font-family: 'Roboto', sans-serif;*/
@@ -80,10 +81,15 @@ button {
 	text-align: center;
 }
 
-img {
+img > .intro-section {
 	height: 15%;
 	width: 15%;
 }
+
+/*img {
+	height: 15%;
+	width: 15%;
+}*/
 
 .scroll-box {
 	position: relative;

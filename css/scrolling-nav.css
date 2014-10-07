@@ -34,6 +34,11 @@ of those sections to manage the look and feel of the site. */
     /*background: #a3a3a3;*/
 }
 
+.intro-section img {
+    height: 15%;
+    width: 15%;
+}
+
 .about-section {
     height: 100%;
     padding-top: 150px;
