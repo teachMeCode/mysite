@@ -93,7 +93,7 @@
         </div> <!-- end of std nav   -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1"> 
           <a class="btn btn-default navbar-btn" href="http://codeocode.tumblr.com/" target="_blank">Blog</a>
-          <a class="btn btn-default navbar-btn" role="menu" href="BrianPurcell_resume_in_2014_09_29.pdf" target="_blank" onclick="_gaq.push(['event', 'button', 'resumeBtn_Click'])">Resume</a>
+          <a class="btn btn-default navbar-btn" role="menu" href="http://bit.ly/1oKzbKq" target="_blank" onclick="_gaq.push(['event', 'button', 'resumeBtn_Click'])">Resume</a>
 					<div class="btn-group">
 						<a class="btn btn-primary navbar-btn dropdown-toggle" data-toggle="dropdown" role="menu" href="#">Contact Me <span class="caret"></span>
 						</a>
@@ -455,24 +455,86 @@
 
             <!-- Wrapper for slides -->
               <div class="carousel-inner">
+                <!-- Project 4 -->
                 <div class="item active">
-                  <img src="img/ss.jpg" alt="fastfantasyfootball">
+                  <a href="#" data-toggle="modal" data-target="#modal-fff"><img src="img/ss.jpg" alt="fastfantasyfootball"></a>
                   <div class="carousel-caption">
-                    <h4>Fast Fantasy Football</h4>
+                    <h1 style="color:black; background-color:red;">Fast Fantasy Football</h1>
+                  </div>
+                  <div class="modal fade" id="modal-fff" role="dialog" tabindex="-1" aria-labelledby="modal-fff-mylabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                          <h4 class="modal-title" id="myModalLabel"><h4>Final WDI Project: Fast Fantasy Football</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>This is my final project as part of the <a href="http://bit.ly/19F19iL" target="_blank">WDI</a>  project series.<p>
+                          <p>The idea behind this app was to give fantasy football players (such as myself) the ability to research and understand specific metrics of key fantasy players in a effort to make better selections when drafting and acquiring players throughout the season.</p>
+                          <p>This app utilizes NFL player data made available from the <a href="https://github.com/BurntSushi/nflgame" target="_blank">nflgame api</a> and is visualized using a Google fusion table on the back end, a Google motion chart on the front end, and the Google data visualization api to bring them together.</p>
+                          <p>The application runs on rails and is hosted on heroku per the requirements of the final projects. However, this could have just as easily been done without the use or rails or  heroku.</p> 
+                          <p>Please see the live app <a href="http://fastfantasyfootball.herokuapp.com" target="_blank">here</a> or visit my Github repo <a href="https://github.com/teachMeCode/wdi_project_4">here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <!-- Project 3 -->
                 <div class="item">
-                  <img src="img/cc.jpg" alt="..." class="img-rounded">
-                  <div class="carousel-caption">
-                    Congress Connection
+                  <a href="#" data-toggle="modal" data-target="#modal-cc"><img src="img/cc.jpg" alt="Congress Connection"></a>
+                  <div class="carousel-caption" style="color:black;">
+                    <h4>The Congress Connection</h4>
                   </div>
-                </div>
+                  <div class="modal fade" id="modal-cc" role="dialog" tabindex="-1" aria-labelledby="modal-cc-mylabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel"><h4>Group Project: The Congress Connection</h4>
+                        </div>
+                          <div class="modal-body">
+                            <p>This app is the result of a group project completed by a team of three. <p>
+                            <p>The idea was to create a network visualization of members of the Senate (the entire congress was out of scope) and link their votes, bills voted on, and committee membership.</p>
+                            <p>The work was divided into three parts: Front end, back end, data. I was responsible for the data and built much of the data model, tables, and postgreSQL database. The data for this app is sourced from the <a href="https://sunlightlabs.github.io/congress/" target="_blank">Sunlight Foundation Congress v3 API</a> and is consumed in both live calls and stored in the postgreSQL DB via .csv uploads.</p> 
+                            <p>The front end was developed my <a href="https://github.com/nickmro" target="_blank">Nick Mrozowski</a> utilizing D3.js and the back end was developed by <a href="https://github.com/riachkyle" target="_blank">Kyle Riach</a> utilizing rails and some AngularJs on the front end.</p>
+                            <p>Please see the live app <a href="http://bit.ly/1y8kF7C" target="_blank">here</a> or visit the Github repo <a href="http://bit.ly/ZeCin6" target="_blank">here</a>.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Project 2 -->
                 <div class="item">
-                  <img src="img/inv.jpg" alt="...">
+                  <a href="#" data-toggle="modal" data-target="#modal-inv"><img src="img/inv.jpg" alt="inventory application"></a>
                   <div class="carousel-caption">
-                    Congress Connection
+                    <h4>Inventory Application</h4>
                   </div>
-                </div>
+                  <div class="modal fade" id="modal-inv" role="dialog" tabindex="-1" aria-labelledby="modal-inv-mylabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel"><h4>My First Rails App: An Inventory Application</h4>
+                        </div>
+                          <div class="modal-body">
+                            <p>This was the first app I completed at WDI and was my first introduction to Ruby on Rails.</p>
+                            <p>My idea for this app was to create an inventory application my girlfriend could use to keep track of her art work, thus the name, Art Tracker.</p>
+                            <p>The goal here was to demonstrate basic CRUD functionality, use MongoDB as the database, and bcrypt to secure user passwords. All of these requirements are included in this project.</p>
+                            <p>Please see the live application <a href="http://bit.ly/1yO6Jkq" target="_blank">here</a> or visit my Github repo <a href="http://bit.ly/1ndqoVJ" target="_blank">here</a>.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div> <!-- end project -->
                 <!-- <h3>Here are some projects</h3> -->
               </div>
   
@@ -520,7 +582,7 @@
 										<strong><span class="pull-right"> 65% &nbsp </span></strong>
 									</div>
 								</div>	
-								<h3>VBA<small> (both Excel and Access, marcos, automation, data connections, recordset transfers, etc)</small>
+								<h3>VBA<small> (both Excel and Access, macros, automation, data connections, recordset transfers, etc)</small>
 								</h3>
 								<p class="text-muted">Beginner<span class="pull-right">Expert</span></p>
 								<div class="progress">
@@ -640,5 +702,4 @@
       }) 
 		</script>
 	</body	
-
 </html>

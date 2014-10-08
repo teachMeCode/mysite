@@ -41,7 +41,7 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
 /*    background-image: url('../img/20140118_173241_compress.jpg');
     background-size: 100% 100%;
@@ -83,7 +83,7 @@ of those sections to manage the look and feel of the site. */
 
 .projects-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     /*background-image: url('../img/code.png');
     background-size: 100% 100%;
@@ -93,7 +93,9 @@ of those sections to manage the look and feel of the site. */
 }
 
 .projects-section img {
-    background-size: none;
-    border: solid 1px black;
+    border-top: solid 3px #eee;
+    border-right: solid 3px #ddd;
+    border-left: solid 3px #eee;
+    border-bottom: solid 3px #ddd;
 }
 
