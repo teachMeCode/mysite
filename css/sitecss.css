@@ -7,6 +7,7 @@
 	border-color: #9bd7cf;	*/
 	border-bottom: solid, thin;
 	padding: 0 0 auto;
+	background-color:#468499; 
 }
 /*background updated from #eeeeee 2/1/2014*/
 /*background updated from #d6d6d6 2/1/2014*/
@@ -21,31 +22,16 @@
 	width: 25%;
 }
 
-/*body {
-	background-color: #2ecc71;*/
+h4,h5,h6 {
+	font-family: 'EB Garamond', serif;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
+p {
+	font-family: 'EB Garamond', serif;
+	font-size: 14px;
 }
-
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'Roboto', sans-serif;
-}
-
-p, a {
-	font-family: 'Roboto', sans-serif;
-}
-
-button {
-	font-family: 'Roboto', sans-serif;
-}
-
-
 
 #fontsize {
-	
-	/*font-family: 'Roboto', sans-serif;*/
 	font-size: 90px;
 	font-weight: 700;
 }
@@ -59,6 +45,12 @@ button {
 	font-size: 70px;
 	font-weight: 700;
 }
+
+#font-header-projects {
+	font-size: 50px;
+	font-weight: 700;
+}
+
 
 .home-section {
 	background: none repeat scroll #ffffff;
@@ -81,15 +73,10 @@ button {
 	text-align: center;
 }
 
-img > .intro-section {
-	height: 15%;
-	width: 15%;
+p > .content-section {
+	font-size: 22px;
 }
 
-/*img {
-	height: 15%;
-	width: 15%;
-}*/
 
 .scroll-box {
 	position: relative;
