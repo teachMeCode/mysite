@@ -36,9 +36,21 @@ p {
 	font-weight: 700;
 }
 
+#fontsize-header-work {
+	font-size: 90px;
+	font-weight: 700;
+	color: white;
+}
+
 #font-header-education {
 	font-size: 50px;
 	font-weight: 700;	
+}
+
+#font-header-projects {
+	font-size: 50px;
+	font-weight: 700;
+	/*color: white;*/
 }
 
 #font-header-skills {
@@ -46,11 +58,11 @@ p {
 	font-weight: 700;
 }
 
-#font-header-projects {
-	font-size: 50px;
+#font-header-contactme {
+	font-size: 90px;
 	font-weight: 700;
+	color: #fff;
 }
-
 
 .home-section {
 	background: none repeat scroll #ffffff;
@@ -76,7 +88,6 @@ p {
 p > .content-section {
 	font-size: 22px;
 }
-
 
 .scroll-box {
 	position: relative;

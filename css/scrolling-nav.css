@@ -43,14 +43,71 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 55px;
     text-align: center;
 /*    background-image: url('../img/20140118_173241_compress.jpg');
     background-size: 100% 100%;
     background-repeat: repeat-x;  */  
     /*background-position: top left;*/
     /*background: #eee;*/
-    background: #6FA9BD;
+    background: #fff;
+}
+
+.about-section p {
+    font-size: 14px;
+}
+
+.about-section h3 {
+    font-size: 32px;
+}
+
+.about-section #years {
+    font-size: 32px;
+}
+
+.about-section #verizon {
+    font-size: 32px;
+    color: #994684;
+}
+
+.about-section #CRM {
+    font-size: 40px;
+    color: #465b99;
+}
+
+.about-section #cbm {
+    font-size: 24px;
+    color: #469985;
+}
+
+.about-section #social {
+    font-size: 30px;
+    color: #995b46;
+}
+
+.about-section #email {
+    font-size: 24px;
+    color: #465b99;
+}
+
+.about-section #kpi {
+    font-size: 40px;
+    color: #469985;
+}
+
+.about-section #metrics {
+    font-size: 30px;
+    color: #995b46;
+}
+
+.about-section #reporting {
+    font-size: 20px;
+    color: #995b46;
+}
+
+.about-section #analysis {
+    font-size: 20px;
+    color: #995b46;
 }
 
 .services-section {
@@ -60,8 +117,8 @@ of those sections to manage the look and feel of the site. */
     background-size: 100% 100%;
     background-repeat: repeat-x;*/
     /*text-align: center;*/
-    background: #fff;
-    /*background: #c7c7c7;*/
+    /*background: #fff;*/
+    background: #4E93AA;
 }
 
 .services-section h2 {
@@ -85,27 +142,28 @@ of those sections to manage the look and feel of the site. */
     font-size: 16px;
 }
 
+#btn-1 {
+    background-color: #2E5765; 
+}
+
+#btn-2 {
+    background-color: #653C2E;
+}
+
+#services-section-or {
+    color: white;
+}
+
 .contact-section {
     height: 100%;
     padding-top: 100px;
     text-align: center;
     background: #eee;
-    /*background: #dadada;*/
+    /*background: #5D9FB5;*/
 }
 
 .contact-section p {
     font-size: 16px;
-}
-
-.things-section {
-    height: 100%;
-    padding-top: 75px;
-    text-align: center;
-    /*background-image: url('../img/code.png');
-    background-size: 100% 100%;
-    background-repeat: repeat-x;*/
-    background: #fff;
-    /*background: #ececec;*/
 }
 
 .projects-section {
@@ -116,13 +174,50 @@ of those sections to manage the look and feel of the site. */
     background-size: 100% 100%;
     background-repeat: repeat-x;*/
     background: #fff;
-    /*background: #ececec;*/
+    /*background: #6FA9BD;*/
 }
+
 
 .projects-section img {
     border-top: solid 3px #eee;
-    border-right: solid 3px #ddd;
+    border-right: solid 3px #fff;
     border-left: solid 3px #eee;
-    border-bottom: solid 3px #ddd;
+    border-bottom: solid 3px #fff;
 }
+
+.projects-section h4 {
+    font-size: 28px;
+    font-family: helvetica;
+}
+
+.projects-section p {
+    font-size: 18px;
+}
+
+.things-section {
+    height: 100%;
+    padding-top: 75px;
+    text-align: center;
+    /*background-image: url('../img/code.png');
+    background-size: 100% 100%;
+    background-repeat: repeat-x;*/
+    background: #fff;
+    /*background: #6FA9BD;*/
+    color: #468499;
+}
+
+.contactme-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    /*background-image: url('../img/code.png');
+    background-size: 100% 100%;
+    background-repeat: repeat-x;*/
+    background-color: #468499;
+}
+
+.contactme-section p {
+    font-size: 28px;
+}
+
 

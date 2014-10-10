@@ -34,6 +34,10 @@
   			var $spy = $(this).scrollspy('refresh')
 		  });
 		</script-->	
+    <!-- Google Viz API -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1.1", {packages:["wordtree"]});</script>
 		<!--Google Analytics-->
 		<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -97,7 +101,7 @@
           <a class="btn btn-default navbar-btn" href="http://codeocode.tumblr.com/" target="_blank">Blog</a>
           <a class="btn btn-default navbar-btn" role="menu" href="http://bit.ly/1oKzbKq" target="_blank" onclick="_gaq.push(['event', 'button', 'resumeBtn_Click'])">Resume</a>
 					<div class="btn-group">
-						<a class="btn btn-info navbar-btn dropdown-toggle" data-toggle="dropdown" role="menu" href="#">Contact Me <span class="caret"></span>
+						<a class="btn btn-warning navbar-btn dropdown-toggle" data-toggle="dropdown" role="menu" href="#">Contact Me <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li><a href="mailto:brian.purcell7@gmail.com"><i class="fa fa-envelope"></i>  Email</a></li>
@@ -114,7 +118,7 @@
     	<div class="container">
       	<div class="row">
         	<div class="col-lg-12">
-            <h6>Resume | Personal Website | Rambling Web Presence</h6>
+            <h5>Web Development | Data &amp Marketing Analytics</h5>
             <!-- <h6 class="text-muted">Welcome to the website of</h6> -->
             <h1 id="fontsize">Brian Purcell</h1>
             <h6 class="text-muted"></h6>
@@ -140,69 +144,57 @@
     <section id="about" class="about-section"> <!--id connects to navbar, class connects to css file-->
     	<div class="container">
       	<div class="row">
-        	<div class="col-lg-12">
+        	<!--div class="col-lg-12"-->
             <h1 id="fontsize">About me</h1>
-          	<div class="panel panel-default">
-              <div class="panel-body" style="height:275px;">
+          	<!--div class="panel panel-default"-->
+              <!--div class="panel-body" style="height:400px;"-->
 
-                <div class="col-lg-5" style="color:#333333; padding:5px 10px 0 10px;">
+                <!-- <div class="col-lg-5" style="color:#333333; padding:5px 10px 0 10px;"> -->
+                <div class="col-lg-5">
                   <h3>Past <i class="fa fa-hand-o-right"></i></h3>
-                  <p>I spent many years at Verizon Wireless working in a number of different roles. My primary focus during this time was reporting and analysis as it related to CRM base management and customer insights.</p> 
-                <p>Please see my <span class="page-scroll"><a href="#work">work experience</a></span> for more details.</p>
+                  <p>Spent the last <span id="years">14</span> years at <span id="verizon">Verizon</span> developing and executing <span>marketing strategy in </span><span id="CRM">CRM</span> and <span id="cbm">customer base management</span>, <span id="social"> social business analytics</span>, <span id="email">email &amp; digital marketing solutions</span>, and <span id="kpi">KPI</span> &amp; <span id="metric">metrics</span><span id="reporting"> reporting</span> and <span id="analysis">analysis</span>.</p>
+                  <!-- !!! hidden !!! -->
+                  <p class="hidden">I spent many years at Verizon Wireless working in a number of different roles. My primary focus during this time was reporting and analysis as it related to CRM base management and customer insights.</p> 
+                  <p>Please see my <span class="page-scroll"><a href="#work">work experience</a></span> for more details.</p>
                     <!--My day to day job functions fall somewhere between that of a web analyst, an email marketing manager, and a marketing communications manager. Some days I may need to spend time in our data warehouse to pull data and gather insight on the performance of a particular campaign as it relates to our digital communications, other days I’ll review our email deliverability metrics and identify if any major events are impacting the health of our email marketing efforts, and other days will consist of working with powerpoint and excel to develop slides and produce reporting to review upcoming campaign strategy and
                   </div>  
                           past campaign results.-->
-                </div>
+                <!--/div-->
 
-                <div class="col-lg-2"></div>
+                <!-- <div class="col-lg-2"></div>
                 <div class="hidden col-lg-4" style="color:#333333; padding:5px 10px 0 10px;">
                   <h3><i class="fa fa-space-shuttle"></i>  Transition  <i class="fa fa-space-shuttle"></i></h3>
+                </div> -->
+                </div>  
+                <!-- <div class="col-lg-7" style="color:#333333; padding:5px 10px 0 10px;"> -->
+                <div class="col-lg-1">
                 </div>
-
-                <div class="col-lg-5" style="color:#333333; padding:5px 10px 0 10px;">
+                <div class="col-lg-6">
             	   <h3><i class="fa fa-thumbs-o-up"></i>  Present</h3>	
-            		  <p>I've decided to steer my career in a different direction and enrolled and completed web development immersion boot camp at <a href="https://generalassemb.ly/education/web-development-immersive#" traget="_blank">General Assembly LA</a>.
+                 <p>I've decided to steer my career in a new direction and completed web development bootcamp in an effort to strengthen my web dev skills set. <em>I am actively looking for roles in the following subject matter</em>:</p>
+            		<!--   <p>I've decided to steer my career in a different direction and enrolled and completed web development immersion boot camp at <a href="https://generalassemb.ly/education/web-development-immersive#" traget="_blank">General Assembly LA</a>.
                   </p>
                   <p>
                     I'm currently seeking opportunities as a jr. web developer, marketing analytics, and am also interested in a dev ops career path.
                   </p>
                   <p>
                     Please <a href="http://www.linkedin.com/pub/brian-purcell/51/765/8b4" targat="_blank">contact me</a> if you have questions or would like to learn more about my background and skill set.
-                  </p>
-              	</div>
+                  </p> -->
+                
+                <!-- !!! Word Tree !!! -->  
+                <div id="wordtree_explicit" style="width: 530px; height: 300px;"></div>
+              </div>
+							<!--/div--> <!-- end of panel body -->
+            <!--/div--> <!-- end of panel -->
+          </div>	<!-- end row -->
 
-							</div> <!-- end of panel body -->
-            </div> <!-- end of panel -->
-          </div>	
             <!--Add Modal--> <!--hidden-->
-                  <button class="hidden btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">About Me</Button>
-      						<!-- Modal -->
-									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  									<div class="modal-dialog">
-    									<div class="modal-content">
-      									<div class="modal-header">
-        								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        									<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      									</div>
-      								<div class="modal-body">
-        							...
-      								</div>
-      								<div class="modal-footer">
-        							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      							</div>
-    						</div>
-  						</div> <!--close modal-->
-						</div>            
-           </div>
+   
+           
+           </div> <!-- end container -->
                
            <!--hidden-->
-           <div class="hidden col-lg-6">
-                	
-            </div> <!--column 6-->
-            </div>
-            <div class="hidden row">
-            	
-            </div> <!--hidden-->
+
         </div>
     </section>
 
@@ -210,14 +202,14 @@
     	<div class="container">
       	<div class="row">
         	<div class="col-lg-12">
-           <h1 id="fontsize" class="text-center">Work Experience</h1>
+           <h1 id="fontsize-header-work" class="text-center">Work Experience</h1>
            	<br>
            </div>
            <div class="col-lg-1">
            </div>
            <div class="col-lg-4">	
            <!---->
-           	<button class="btn btn-success btn-lg border-fade" style="height:175px; padding:50px;"  data-toggle="modal" data-target=".bs-modal-lg">
+           	<button id="btn-1" class="btn btn-success btn-lg border-fade" style="height:175px; padding:50px;"  data-toggle="modal" data-target=".bs-modal-lg">
 							<h3>
 							Get all the details right here!
 							</h3>
@@ -341,10 +333,10 @@
 					</div> <!--modal-->
 				</div>
 				<div class="col-lg-2 text-center">
-					<h1 style="padding:50px 0 0 40px"><strong>Or</strong></h1>
+					<h1 id="services-section-or" style="padding:50px 0 0 40px"><strong>Or</strong></h1>
 				</div>
 				<div class="col-lg-4">
-					<a class="btn btn-primary btn-lg border-fade" style="height:175px; padding:50px;" href="http://bit.ly/1oKzbKq" target="_blank">
+					<a id="btn-2" class="btn btn-primary btn-lg border-fade" style="height:175px; padding:50px;" href="http://bit.ly/1oKzbKq" target="_blank">
 						<h3>Download my resume here</h3>
 					</a>
 				</div>
@@ -367,7 +359,7 @@
             	<div class="panel-heading">
 								<h1>The Classroom</h1>
               </div>
-              <div class="panel-body" style="height:200px;">
+              <div class="panel-body" style="height:225px;">
                 <p>
                  Study: <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank"><strong>Web Development Immersion Boot Camp</strong></a>
                 <br>
@@ -401,7 +393,7 @@
           	<div class="panel-heading">
             	<h1>Certificates / Specialized Study</h1>
             </div>
-            <div class="panel-body" style="height:200px">
+            <div class="panel-body" style="height:225px">
             	<div class="col-lg-6">
               	<p>
           			Study: <a href="https://s3-us-west-1.amazonaws.com/awsbsptesting/GoogleIQ.pdf" target="_blank"><strong>Google Analytics Individual Qualification</strong></a>
@@ -446,7 +438,7 @@
           <div class="col-md-2">
           </div>
           <div class="col-md-8">
-            <h1 id="font-header-projects" class="text-center">Web Development Immersion Projects</h1>
+            <h1 id="font-header-projects" class="text-center">Projects<br><small><a href="http://bit.ly/19F19iL" target="_blank">  &#64 Web Development Immersion</a></small></h1>
             <!-- carousel
             =========================== -->
             <div id="carousel" class="carousel slide" >
@@ -477,7 +469,7 @@
                           <p>The idea behind this app was to give fantasy football players (such as myself) the ability to research and understand specific metrics of key fantasy players in a effort to make better selections when drafting and acquiring players throughout the season.</p>
                           <p>This app utilizes NFL player data made available from the <a href="https://github.com/BurntSushi/nflgame" target="_blank">nflgame api</a> and is visualized using a Google fusion table on the back end, a Google motion chart on the front end, and the Google data visualization api to bring them together.</p>
                           <p>The application runs on rails and is hosted on heroku per the requirements of the final projects. However, this could have just as easily been done without the use or rails or  heroku.</p> 
-                          <p>Please see the live app <a href="http://fastfantasyfootball.herokuapp.com" target="_blank">here</a> or visit my Github repo <a href="https://github.com/teachMeCode/wdi_project_4">here</a>.</p>
+                          <p>Please see the live app <a href="http://fastfantasyfootball.herokuapp.com" target="_blank">here</a> or visit my Github repo <a href="https://github.com/teachMeCode/wdi_project_4" target="_blank">here</a>.</p>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -524,13 +516,13 @@
                       <div class="modal-content">
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                            <h4 class="modal-title" id="myModalLabel"><h4>My First Rails App: An Inventory Application</h4>
+                            <h4 class="modal-title" id="myModalLabel"><h4>First Rails App: An Inventory Application</h4>
                         </div>
                           <div class="modal-body">
                             <p>This was the first app I completed at WDI and was my first introduction to Ruby on Rails.</p>
                             <p>My idea for this app was to create an inventory application my girlfriend could use to keep track of her art work, thus the name, Art Tracker.</p>
                             <p>The goal here was to demonstrate basic CRUD functionality, use MongoDB as the database, and bcrypt to secure user passwords. All of these requirements are included in this project.</p>
-                            <p>Please see the live application <a href="http://bit.ly/1yO6Jkq" target="_blank">here</a> or visit my Github repo <a href="http://bit.ly/1ndqoVJ" target="_blank">here</a>.</p>
+                            <p>Please see the live application <a href="http://bit.ly/1yO6Jkq" target="_blank">here</a> or visit my Github repo <a href="http://bit.ly/19F19iL" target="_blank">here</a>.</p>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -574,10 +566,10 @@
               &nbsp 
               <span>   
                 <i class="fa fa-circle"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
+                <i class="fa fa-circle"></i>
+                <i class="fa fa-circle"></i>
+                <i class="fa fa-circle"></i>
+                <i class="fa fa-circle"></i>
               </span> = Expert
             </p>
           </div>
@@ -1012,6 +1004,35 @@
           </div>       
         </div>
       </div>
+    </section>
+    <section class="contactme-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 id="font-header-contactme">Get in contact with me</h2> 
+          </div>
+          <div class="col-md-12 text-center">
+            <a class="grow" style="color:white;" href="mailto:brian.purcell7@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-4x"></i></a>&nbsp
+            <a class="grow" style="color:white;" href="http://www.linkedin.com/pub/brian-purcell/51/765/8b4" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a>&nbsp
+            <a class="grow" style="color:white;" href="https://github.com/teachMeCode" target="_blank"><i class="fa fa-github-square fa-4x"></i></a>&nbsp
+            <a class="grow" data-toggle="modal" data-target="#contact-number" style="color:white;" href="#"><i class="fa fa-mobile fa-4x"></i></a>
+            <div class="modal fade" id="contact-number" tabindex="-1" role="dialog" aria-labelledby="myContactNumber" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                  </div>
+                  <div class="modal-body">
+                    <p>Mobile: 949.933.3422</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end row -->
+      </div> <!-- end container -->
     </section>	
     <!-- Core JavaScript Files -->
     <!--script src="js/jquery-1.10.2.js"></script-->
@@ -1019,6 +1040,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
     <!-- Custom Theme JavaScript -->
     <script src="js/scrolling-nav.js"></script>
     
@@ -1047,5 +1069,75 @@
         interval: 3000
       }) 
 		</script>
+    <!-- Google Viz Chart -->
+    <script>
+    google.setOnLoadCallback(drawSimpleNodeChart);
+      function drawSimpleNodeChart() {
+        var nodeListData = new google.visualization.DataTable();
+        nodeListData.addColumn('number', 'id');
+        nodeListData.addColumn('string', 'childLabel');
+        nodeListData.addColumn('number', 'parent');
+        nodeListData.addColumn('number', 'size');
+        nodeListData.addColumn('number', 'color');
+
+        nodeListData.addRow([0, "Brian's Interests", -1, 2, 0]);
+        nodeListData.addRow([1, 'Programming', 0, 1, 2]);
+        nodeListData.addRow([2, 'Data', 0, 1, 0]);
+        nodeListData.addRow([3, 'Marketing', 0, 1, 0]);
+
+        //programing node
+        nodeListData.addRow([4, 'Dev Ops', 1, 1, 0]);
+        nodeListData.addRow([5, 'Data Viz', 1, 1, 0]);
+        nodeListData.addRow([6, 'Front End', 1, 1, 0]);
+        nodeListData.addRow([7, 'Back End', 1, 1, 0]);
+        nodeListData.addRow([8, 'Python Dev', 1, 1, 0]);
+
+        nodeListData.addRow([18, 'Jr.Dev Ops', 4, 1, 0]);
+        nodeListData.addRow([19, 'Jr.Sys Ops', 4, 1, 0]);
+
+        nodeListData.addRow([20, 'D3', 5, 1, 0]);        
+        nodeListData.addRow([21, 'Google Charts', 5, 1, 0]);
+        
+        //data node
+        nodeListData.addRow([9, 'SQL', 2, 1, 0]);
+        nodeListData.addRow([10, 'Database', 2, 1, 0]);
+        nodeListData.addRow([22, 'Web Analytics', 2, 1, 0]);
+        nodeListData.addRow([30, 'Cloud', 2, 1, 0]);        
+
+        nodeListData.addRow([23, 'Tag Management', 22, 1, 0]);
+        nodeListData.addRow([24, 'Google Analytics', 22, 1, 0]);
+        nodeListData.addRow([28, 'Dashboards', 22, 1, 0]);   
+
+        nodeListData.addRow([26, 'PostgreSQL', 10, 1, 0]);
+        nodeListData.addRow([27, 'MongoDB', 10, 1, 0]);
+        nodeListData.addRow([29, 'Tableau Public', 10, 1, 0]);
+
+        nodeListData.addRow([31, 'AWS', 30, 1, 0]);                   
+
+        //marketing node
+        nodeListData.addRow([11, 'Analytics', 3, 1, 0]);
+        nodeListData.addRow([12, 'CRM', 3, 1, 0]);
+        
+        nodeListData.addRow([13, 'Social Analytics', 11, 1, 0]);
+        nodeListData.addRow([14, 'OnSite Behavior', 11, 1, 0]);
+        nodeListData.addRow([25, 'Sentiment Analytics', 11, 1, 0]);
+
+        nodeListData.addRow([15, 'Email Marketing', 12, 1, 0]);
+        nodeListData.addRow([16, 'Base Management', 12, 1, 0]);
+        nodeListData.addRow([17, 'Customer Insights', 12, 1, 0]);
+
+        var options = {
+          maxFontSize: 14,
+          colors: ['black', 'red', 'green'],  
+          wordtree: {
+            format: 'explicit',
+            type: 'suffix'
+          }
+        };
+
+        var wordtree = new google.visualization.WordTree(document.getElementById('wordtree_explicit'));
+        wordtree.draw(nodeListData, options);
+      }
+    </script>
 	</body	
 </html>
