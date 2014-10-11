@@ -37,7 +37,12 @@
     <!-- Google Viz API -->
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
-      google.load("visualization", "1.1", {packages:["wordtree"]});</script>
+      google.load("visualization", "1.1", {packages:["wordtree"]});
+      google.load("visualization", "1.1", {packages:["timeline"]});
+    </script>
+    <!--script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization',
+       'version':'1','packages':['timeline']}]}">
+    </script-->
 		<!--Google Analytics-->
 		<script>
   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -202,18 +207,31 @@
     	<div class="container">
       	<div class="row">
         	<div class="col-lg-12">
-           <h1 id="fontsize-header-work" class="text-center">Work Experience</h1>
-           	<br>
-           </div>
-           <div class="col-lg-1">
-           </div>
-           <div class="col-lg-4">	
-           <!---->
-           	<button id="btn-1" class="btn btn-success btn-lg border-fade" style="height:175px; padding:50px;"  data-toggle="modal" data-target=".bs-modal-lg">
-							<h3>
-							Get all the details right here!
-							</h3>
-						</button>
+            <h1 id="fontsize-header-work" class="text-center">Work Experience</h1>
+          </div>
+        </div> <!-- end first row -->
+        <div id="wrk-btn-grp" class="row">
+          <div class="col-lg-12 text-center">
+            <button id="btn-1" class="btn btn-default" data-toggle="modal" data-target=".bs-modal-lg">
+              <h5>Get all the details right here!</h5>
+            </button>
+            <a id="btn-2" class="btn btn-default" href="http://bit.ly/1oKzbKq" target="_blank">
+              <h5>Download my resume here</h5>
+            </a>
+          </div>
+        </div> <!-- end second row -->
+        <div class="row">
+          <!-- the chart -->
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-10">
+            <div id="workExp" style="width: 950px; height: 500px;"></div>
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div> <!-- end third row -->
+          <div class="col-lg-2">	
+           	
 						<div class="modal fade bs-modal-lg text-left" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 							<div class="modal-dialog modal-lg">
 								<div class="modal-content">
@@ -309,21 +327,21 @@
 									</ul>
                   <!-- !!! this is currently hidden !!! -->
 									<div class="hidden">
-											<a href="work.html">Strategist - Digital Marketing and CRM</a>
-											<br><br>
-											<a href="work.html">Manager - CRM Consumer Base Marketing</a>
-											<br><br>
-											<a href="work.html">Manager - Equipment Marketing and Operations</a>
-											<br><br>
-											<a href="work.html">Manager - Training Operations</a>
-											<br><br>
-											<a href="work.html">Senior Analyst - Reporting and Analysis</a>
-											<br><br>
-											<a href="work.html">Various Positions</a>
-										</div>
-										<br>
-										<p>Please feel free to <a href="mailto:brian.purcell7@gmail.com?subject=More Info:">contact me</a> with any questions or if you would like to learn more about my work experience.</p>
-										</p>
+									  <a href="work.html">Strategist - Digital Marketing and CRM</a>
+										<br><br>
+										<a href="work.html">Manager - CRM Consumer Base Marketing</a>
+										<br><br>
+										<a href="work.html">Manager - Equipment Marketing and Operations</a>
+										<br><br>
+										<a href="work.html">Manager - Training Operations</a>
+										<br><br>
+										<a href="work.html">Senior Analyst - Reporting and Analysis</a>
+										<br><br>
+										<a href="work.html">Various Positions</a>
+									</div>
+									<br>
+									<p>Please feel free to <a href="mailto:brian.purcell7@gmail.com?subject=More Info:">contact me</a> with any questions or if you would like to learn more about my work experience.</p>
+                  </p>
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -331,106 +349,51 @@
 							</div> <!--content-->
 						</div> <!--dialog-->
 					</div> <!--modal-->
-				</div>
-				<div class="col-lg-2 text-center">
+          <!-- <a id="btn-2" class="btn btn-primary border-fade" href="http://bit.ly/1oKzbKq" target="_blank">
+            <h5>Download my resume here</h5>
+          </a> -->
+
+				<!-- </div> -->
+
+				<!-- <div class="col-lg-2 text-center">
 					<h1 id="services-section-or" style="padding:50px 0 0 40px"><strong>Or</strong></h1>
-				</div>
-				<div class="col-lg-4">
+				</div> -->
+
+				<!-- div class="col-lg-4">
 					<a id="btn-2" class="btn btn-primary btn-lg border-fade" style="height:175px; padding:50px;" href="http://bit.ly/1oKzbKq" target="_blank">
 						<h3>Download my resume here</h3>
 					</a>
-				</div>
-				<div class="col-lg-1">
-				</div>	
-        </div>
-      	</div>
-    	</div>
-    </section>
+				</div> -->
+        
 
+				<!-- <div class="col-lg-1">
+				</div> -->
+
+        <!-- </div>
+      	</div> -->
+    	</div> <!-- end container -->
+    </section>
+    <!-- ===========================================================================================================-->  
     <section id="education" class="contact-section">
-    	<div class="container">
-      	<div class="row">
-        	<div class="col-lg-12">
-          	<h1 id="font-header-education">I feel that learning is a lifelong endeavor.</h1>
-            <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          <h1 id="font-header-education">I feel that learning is a lifelong endeavor.</h1>
+          <br>
           </div>
-          <div class="col-lg-4">
-          	<div class="panel panel-info">
-            	<div class="panel-heading">
-								<h1>The Classroom</h1>
-              </div>
-              <div class="panel-body" style="height:225px;">
-                <p>
-                 Study: <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank"><strong>Web Development Immersion Boot Camp</strong></a>
-                <br>
-                Where: <strong>General Assembly LA</strong>
-                <br>
-                When: <strong>September 2014</strong>
-                </p>
-              	<p>
-                 Study: <a href="http://psb.soceco.uci.edu/" target="_blank"><strong>B.A. Psychology and Social Behavior</strong></a>
-								<br>
-								Where: <strong>University of California, Irvine</strong>
-								<br>
-								When: <strong>June 2003</strong>
-								</p>
-								&nbsp
-              </div>	
-            </div>
-                	<!--h1><small>University</small></h1>    
-                	<div class="well">
-                	<p>
-                    Study: <a href="http://psb.soceco.uci.edu/" target="_blank"><strong>B.A. Psychology and Social Behavior</strong></a>
-					<br>
-					Where: <strong>University of California, Irvine</strong>
-					<br>
-					When: <strong>June 2003</strong>
-					</p>
-					</div-->
         </div>
-        <div class="col-lg-8">
-        	<div class="panel panel-info">
-          	<div class="panel-heading">
-            	<h1>Certificates / Specialized Study</h1>
-            </div>
-            <div class="panel-body" style="height:225px">
-            	<div class="col-lg-6">
-              	<p>
-          			Study: <a href="https://s3-us-west-1.amazonaws.com/awsbsptesting/GoogleIQ.pdf" target="_blank"><strong>Google Analytics Individual Qualification</strong></a>
-								<br>
-								Where: <strong>Google Training</strong>
-								<br>
-								When: <strong>January 2014</strong>
-								</p>
-								<p>
-								Study: <a href="http://unex.uci.edu/areas/it/seo/" target="_blank"><strong>Search Engine Optimization Specialized Study</strong></a>
-								<br>
-								Where: <strong>University of California, Irvine - Extension</strong>
-								<br>
-								When: <strong>July 2013</strong>
-								</p>
-							</div>
-							<div class="col-lg-6">
-								<p>
-								Study: <a href="http://unex.uci.edu/areas/it/web_intel/" target="_blank"><strong>Web Intelligence Certificate Program</strong></a>
-								<br>
-								Where: <strong>University of California, Irvine - Extension</strong>
-								<br>
-								When: <strong>May 2012</strong>
-								</p>
-								<p>	
-								Study: <a href="http://datawarehouse4u.info/Teradata-Certification-questions-answers.html" target="_blank"><strong>Teradata Certified Professional Certificate V2R5</strong></a>
-								<br>
-								Where: <strong>Teradata Training</strong>
-								<br>
-								When: <strong>December 2005</strong>
-                </p>
-              </div>
-            </div>
-          </div>		
-        </div>
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 col-md-offset-1 text-left">
+            <h3><a href="https://generalassemb.ly/education/web-development-immersive" target="_blank" data-toggle="tooltip" title="3 month programming bootcamp focusing on full stack web development."><i class="fa fa-code fa-1 x"></i>  Web Development Immersion</a></h3>
+            <h3><a href="https://s3-us-west-1.amazonaws.com/awsbsptesting/GoogleIQ.pdf" target="_blank" data-toggle="tooltip" title="Certifies fundamental undestanding of Google Analytics."><i class="fa fa-certificate fa-1 x"></i> Google Analytics Qualified Individual</a></h3>
+            <h3><a href="http://unex.uci.edu/areas/it/seo/" target="_blank" data-toggle="tooltip" title="Search Engine Marketing certificate awarded from UC Irvine - Extension"><i class="fa fa-certificate fa-1 x"></i> Search Engine Marketing Certificate</a></h3>
+            <h3><a href="http://unex.uci.edu/areas/it/web_intel/" target="_blank" data-toggle="tooltip" title="Web Intelligence certificate awarded from UC Irvine - Extension"><i class="fa fa-certificate fa-1 x"></i> Web Intelligence Certificate</a></h3>
+            <h3><a href="http://datawarehouse4u.info/Teradata-Certification-questions-answers.html" target="_blank" data-toggle="tooltip" title="Associate level award certifying fundamental understanding of the Teradata Data Warehouse."><i class="fa fa-certificate fa-1 x"></i> Teradata Certified Professional</a></h3>
+            <h3><a href="http://psb.soceco.uci.edu/" target="_blank" data-toggle="tooltip" title="B.A. awarded in Psychology and Social Behavior"><i class="fa fa-university fa-1 x"></i> B.A. University of California, Irvine</a></h3>
+          </div>
+          <div class="col-md-3"></div>
       </div>
-    </div>
     </section>
     <section id="projects" class="projects-section">
       <div class="container">
@@ -1009,7 +972,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2 id="font-header-contactme">Get in contact with me</h2> 
+            <h2 id="font-header-contactme">Get in contact with me.</h2> 
           </div>
           <div class="col-md-12 text-center">
             <a class="grow" style="color:white;" href="mailto:brian.purcell7@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-4x"></i></a>&nbsp
@@ -1068,6 +1031,7 @@
       $('.carousel').carousel({
         interval: 3000
       }) 
+      $('[data-toggle="tooltip"]').tooltip({'placement':'top'})
 		</script>
     <!-- Google Viz Chart -->
     <script>
@@ -1139,5 +1103,45 @@
         wordtree.draw(nodeListData, options);
       }
     </script>
+    <!-- Work Experience Chart -->
+    <script type="text/javascript">
+  
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+
+    var x = document.getElementById('workExp');
+    var chart = new google.visualization.Timeline(x);
+
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Position' });
+    dataTable.addColumn({ type: 'string', id: 'Role' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+      [ 'Verizon Wireless',          'Various roles while at University', new Date(1999, 7, 1), new Date(2005, 8, 1) ],
+      [ 'Verizon Wireless',          'Sr.Analyst - Reporting',      new Date(2005, 8, 1),  new Date(2006, 11, 1) ],
+      [ 'Verizon Wireless',          'Manager - Training Ops',  new Date(2006, 11, 1),  new Date(2007, 12, 1) ],
+      [ 'Verizon Wireless',          'Manager - Marketing Ops',  new Date(2007, 12, 1),  new Date(2010, 11, 1) ],
+      [ 'Verizon Wireless',          'CRM Marketing Manager',  new Date(2010, 11, 1),  new Date(2012, 8, 1) ],
+      [ 'Verizon Wireless',          'Strategist - Digital Marketing & CRM',  new Date(2012, 8, 1),  new Date(2014, 1, 1) ],
+      [ 'Verizon Communications',          'Sr.Consultant - Social Analytics and Insights',  new Date(2014, 1, 1),  new Date(2014, 6, 1) ]]);
+      // [ 'Education',     'UC Irvine - B.A.',        new Date(1999, 9, 1), new Date(2003, 6, 1)],
+      // [ 'Education',     'Teradata Certification',        new Date(2005, 12, 1), new Date(2005, 12, 31)],
+      // [ 'Education',     'Web Intelligence - Certification',        new Date(2011, 5, 1),  new Date(2012, 5, 31)],
+      // [ 'Education',     'Search Engine Marketing - Certification',    new Date(2012, 7, 1),  new Date(2013, 7, 31)],
+      // [ 'Education',     'Google Analytics Qualified Individual',    new Date(2014, 1, 1),  new Date(2014, 1, 31)],
+      // [ 'Education',     'Web Development Immersion',    new Date(2014, 6, 21),  new Date(2014, 9, 26)]
+
+
+      var options = {
+        timeline: {groupByRowLabel: false},
+        // timeline: { singleColor: '#8d8' },
+        // timeline: { colorByRowLabel: true },
+        backgroundColor: '#fff',
+        // colors: ['#468499'],
+      };
+    chart.draw(dataTable, options);
+  }
+</script>
 	</body	
 </html>

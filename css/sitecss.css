@@ -37,14 +37,16 @@ p {
 }
 
 #fontsize-header-work {
-	font-size: 90px;
+	font-size: 70px;
 	font-weight: 700;
-	color: white;
+	color: #4E93AA;
+	padding-bottom: 10px;
 }
 
 #font-header-education {
 	font-size: 50px;
-	font-weight: 700;	
+	font-weight: 700;
+	
 }
 
 #font-header-projects {
