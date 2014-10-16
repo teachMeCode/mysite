@@ -1,4 +1,19 @@
-<!DOCTYPE html>
+
+<?php
+ // require_once('/var/www/html/coinbase-php/lib/Coinbase.php');
+ // require_once(dirname(__FILE__) . '/../lib/Coinbase.php');
+require_once('/Users/brian/programming/coinbase/php_api/coinbase-php/lib/Coinbase.php');
+
+$coinbase = Coinbase::withApiKey($_ENV['XO19iIzFcbKwf7mr'], $_ENV['wQeD5UZxc4hXKuprVFDL40Rz9wRtdZgF']); 
+
+//This was prior to the new code
+// echo 'Buy Price: ' . $coinbase->getBuyPrice('1') . '<br>';
+// echo 'Sell Price: ' . $coinbase->getSellPrice('1') . '<br>';
+
+$currBuyPrice = $coinbase->getBuyPrice('1');  
+$currSellPrice = $coinbase->getSellPrice('1');
+
+?>
 <html lang="en">  
   <head>
     <title>Brian Purcell | Analytics | Web Development</title>
