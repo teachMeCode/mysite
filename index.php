@@ -81,9 +81,9 @@ $currSellPrice = $coinbase->getSellPrice('1');
   </head> 
   <body data-spy="scroll" data-target="#mynav">
   <script>
-    dataLayer = [(
+    dataLayer = [{
       'resumeClick':'resumeBtn_Click'
-    )]; 
+    }]; 
   </script>
     <!--Navbar--> 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
