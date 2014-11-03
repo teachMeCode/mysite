@@ -119,10 +119,14 @@ $currSellPrice = $coinbase->getSellPrice('1');
         </div> <!-- end of std nav   -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1"> 
           <a class="btn btn-default navbar-btn" href="http://codeocode.tumblr.com/" target="_blank">Blog</a>
+<<<<<<< HEAD
           <a class="btn btn-default navbar-btn" role="menu" href="http://bit.ly/1xfQ0Bq" 
             target="_blank" 
               onclick="dataLayer.push(['event', 'button', 'resumeBtn_Click'])">Resume
           </a>
+=======
+          <a class="btn btn-default navbar-btn" role="menu" href="http://bit.ly/1s8LlOE" target="_blank" onclick="_gaq.push(['event', 'button', 'resumeBtn_Click'])">Resume</a>
+>>>>>>> site-branch
           <div class="btn-group">
             <a class="btn btn-info navbar-btn dropdown-toggle" data-toggle="dropdown" role="menu" href="#">Contact Me <span class="caret"></span>
             </a>
