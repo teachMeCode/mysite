@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <?php
 //This directory works with ec2-user
  // require_once('/var/www/html/coinbase-php/lib/Coinbase.php');
@@ -119,9 +119,9 @@ $currSellPrice = $coinbase->getSellPrice('1');
         </div> <!-- end of std nav   -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1"> 
           <a class="btn btn-default navbar-btn" href="http://codeocode.tumblr.com/" target="_blank">Blog</a>
-          <a class="btn btn-default navbar-btn" role="menu" href="http://bit.ly/1s8LlOE" 
+          <a class="btn btn-default navbar-btn" role="menu" href="https://s3-us-west-1.amazonaws.com/awsbsptesting/BrianPurcell_resume_in_pic_2014_11_30.pdf" 
             target="_blank" 
-              onclick="_gaq.push(['event', 'button', 'resumeBtn_Click'])">Resume
+              onClick="ga(['event', 'button', 'resumeBtn_Click'])">Resume
           </a>
           <div class="btn-group">
             <a class="btn btn-info navbar-btn dropdown-toggle" data-toggle="dropdown" role="menu" href="#">Contact Me <span class="caret"></span>
@@ -242,7 +242,7 @@ $currSellPrice = $coinbase->getSellPrice('1');
             <button id="btn-1" class="btn btn-default" data-toggle="modal" data-target=".bs-modal-lg">
               <h5>Get all the details right here!</h5>
             </button>
-            <a id="btn-2" class="btn btn-default" href="http://bit.ly/1oKzbKq" target="_blank">
+            <a id="btn-2" class="btn btn-default" href="https://s3-us-west-1.amazonaws.com/awsbsptesting/BrianPurcell_resume_in_pic_2014_11_30.pdf" target="_blank">
               <h5>Download my resume here</h5>
             </a>
           </div>
